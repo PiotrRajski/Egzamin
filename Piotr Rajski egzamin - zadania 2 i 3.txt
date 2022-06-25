@@ -1,0 +1,10 @@
+1. git status - sprawdzenie statusu
+2. git add -A - dodanie wszystkich plików
+3. git commit -m - potwierdzenie 
+git remote add origin https://github.com/login/cdv.git - podłączenie do repozytorium	
+git push origin master - wysłanie do repozytorium
+
+
+SELECT * FROM CoffeShop WHERE City =! 'Philadelphia' AND Product in ('Long Black','Latte');
+SELECT Product FROM CoffeShop WHERE Customer_ref IN ('william thompson_86','mark taylor_113');
+SELECT City FROM CoffeShop WHERE Product IN ('Cappuciono','Flat White');  
